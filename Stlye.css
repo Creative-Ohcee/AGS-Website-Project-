@@ -1,0 +1,298 @@
+
+
+.navbar{
+    background-color: #1B5E20;
+}
+
+.navbar-nav a{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.logotxt{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navbar-nav button{
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.hero{
+    background-image: url(./Images/Hero\ Image.png);
+    width: 100%;
+    background-size: cover;
+  }
+
+  .hero h1{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 100px;
+  }
+
+  .herotxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .txt button{
+        font-family: 'Sora', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .Platform{
+        display: flex;
+    }
+
+    .Platform_Head{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .Platform_Txt{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;  
+    }
+
+    .Platform_container{
+        padding: 120px;
+        padding-left: 160px;
+        padding-right: 500px;
+    }
+
+    .Platform_Img{
+        width: 200%;
+        padding-top: 20px;
+    }
+
+
+    .Services{
+        background-color: #DAEED4;
+    }
+
+    .Services h2{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .Services_txt{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .card-title{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .head{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .contact_us{
+        background-color: #FFF9C4;
+    }
+
+    .contact_us_txt{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .Send_msg_txt{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 45px;
+        letter-spacing: 0.02em;
+    }
+
+    input, textarea{
+        background-color: transparent;
+    }
+
+    label{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .contact_us button{
+        font-family: 'Sora', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    footer h4{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    footer p{
+       font-family: 'Public Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+   footer div div button {
+        font-family: 'Public Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .hero{
+            background-image: url(./Images/Hero\ Image.png);
+            width: 100%;
+            background-size: cover;
+            background-position: left;
+          }
+        
+          .hero h1{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 55px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-top: 100px;
+          }
+        
+          .herotxt{
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            }
+        
+        .Platform{
+        display:  block;
+        }
+
+        .Platform_Img{
+            width: 100%;
+        }
+
+        .Platform_container{
+            padding: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .Services h2{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 47px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    
+    
+      }
+    
+      @media only screen and (min-width: 601px) and (max-width: 992px) {
+        
+        .Platform{
+            display: flex;
+        }
+    
+        .Platform_Head{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    
+        .Platform_Txt{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;  
+        }
+        
+        .Platform_container{
+            padding: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .Platform_Img{
+            padding-top: 40px;
+            width: 300%;
+        }
+    
+      }
+
